@@ -1,133 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <title>Frontend Mentor | Fylo landing page with two column layout</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <!-- <style>
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-        
-        .attribution a {
-            color: hsl(228, 45%, 44%);
-        }
-    </style> -->
-</head>
-
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>  
 <body>
-    <main>
-        <header class="top-nav">
-            <div class="logo">
-                <img src="./images/logo.svg" alt="fylo logo">
-            </div>
-            <div class="nav">
-                <ol>
-                    <li>Features</li>
-                    <li>Team</li>
-                    <li>Sign In</li>
-                </ol>
-            </div>
-        </header>
+<main>
+  <section id="top-layer">
+  <nav>
+    <div class="logo">
+      <img src="/images/logo.svg" alt="Huddle Logo">
+    </div>
+  <button class="top-button" type="submit">Try it Free</button>
+</nav>
+<div class="top-inner">
+  <div>
+ <h1> Build The Community Your Fans Will Love </h1>
 
-        <section class="top-lay">
-            <aside>
-                <h1> All your files in one secure location, accessible anywhere.</h1>
-                <p> Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-                <input type="email" id="email" name="email" placeholder="Enter your email..." required>
-                <submit class="btn">Get Started</submit>
-            </aside>
-            <div class="top-image">
-                <img src="./images/illustration-1.svg" alt="">
-            </div>
-        </section>
-        <section class="mid-lay">
-            <aside>
-                <h1> Stay productive, wherever you are</h1>
+  <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
+  Create connections with your users as you engage in genuine discussion.</p> 
 
-                <p class="mid"> Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+ <button type="submit">Get Started For Free</button>
+</div>
 
-                <p class="mid"> Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required!</p>
+  <div class="top-image">
+    <img src="/images/illustration-mockups.svg" alt="illustration-mockups">
+  </div>
+</section>
 
-                <span> <p> See how Fylo works</p>  <img src="./images/icon-arrow.svg" alt="icon-arrow"></span>
+<section id="mid-layer">
+  <div>
+  <h2>Grow Together</h2>
+ <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+  Think of the insightful conversations you miss out on with a feedback form. </p>
+</div>
+<div class="mid-image">
+  <img src="/images/illustration-grow-together.svg" alt="an svg to illustrate-grow-together">
+</div>
+</section>
 
-                <div class="comment">
-                    <div class="img-quote">
-                        <img src="./images/icon-quotes.svg" alt="icon-quotes">
-                        <p>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</p>
-                    </div>
+<section id="third-layer">
+  <div class="third-image">
+    <img src="/images/illustration-flowing-conversation.svg" alt="illustration of flowing-conversation">
+  </div>
+<div>
+  <h2>Flowing Conversations</h2>
+  <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+  have just-in-time loading for a more natural flow.</p> </div>
+</section>
 
-                    <div class="image-container">
-                        <div class="kyle">
-                            <img src="./images/avatar-testimonial.jpg" alt="avatar-testimonial">
-                        </div>
-                        <aside>
-                            <p> <strong> Kyle Burton</strong></p>
-                            <p>Founder & CEO, Huddle</p>
-                        </aside>
-                    </div>
+<section id="last-layer">
+ <div><h2>Your Users</h2>
+ 
+ <p> It takes no time at all to integrate Huddle with your app's authentication solution. 
+  This means, once signed in to your app, your users can start chatting immediately.</p> </div>
+<div class="last-image">
+  <img src="/images/illustration-your-users.svg" alt="an illustration- for - your-users">
+</div>
+</section>
 
-            </aside>
-            <div class="bottom-image">
-                <img src="./images/illustration-2.svg" alt="illustration">
-            </div>
-        </section>
-        <div class="sign-up">
-            <aside>
-                <h1> Get early access today</h1>
-                <p> It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
-            </aside>
-            <div class="mail">
-                <input type="email" id="mail" name="email" placeholder=" example@fylo.com" required="">
-                <submit class="bttn"> Get Started For Free</submit>
-            </div>
+<div class="question">
+  <h3>Ready To Build Your Community?</h3>
+ <button type="submit">Get Started For Free</button> 
+</div>
+    
+<section id="Contact">
+  <div class="bottom-logo">
+    <img src="/images/logo.svg" alt="logo of huddle">
+  
+    <div class="contact-1">
+    <img src="/images/icon-location.svg" alt="location"> <p class="locate">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+      incididunt ut labore et dolore magna aliqua</p>
+    </div>
+    <div class="contact-1">
+      <img src="./images/icon-phone.svg" alt="phone number">
+      <p> Phone: +1-543-123-4567</p>
+  </div>
+  <div class="contact-1">
+      <img src="./images/icon-email.svg" alt="e-mail">
+      <p> example@huddle.com</p>
+  </div>
+</div>
 
-    </main>
-    <footer class="main-footer">
-        <div class="bottom-logo">
-            <img src="./images/logo.svg" alt="logo">
-            <div class="contact">
-                <img src="./images/icon-phone.svg" alt="">
-                <p> Phone: +1-543-123-4567</p>
-            </div>
-            <div class="contact">
-                <img src="./images/icon-email.svg" alt="">
-                <p> example@fylo.com </p>
-            </div>
-        </div>
-        </div>
+  <ul>
+    <li>About Us</li> 
+    <li> What We Do</li>
+    <li>FAQ</li> 
+   </ul>
 
+   <ul>
+    <li>Career</li> 
+    <li> Blog</li>
+    <li>Contact Us</li> 
+   </ul>
 
-        <ol>
-            <li>About Us</li>
-            <li> Jobs</li>
-            <li> Press </li>
-            <li>Blog</li>
-        </ol>
-        <ol>
-            <li> Contact Us</li>
-            <li> Terms</li>
-            <li> Privacy </li>
-        </ol>
+   <div class="social">
+    <img src="./images/facebook.png" alt="facebook icon">
+    <img src="./images/twitter.png" alt="twitter icon">
+    <img src="./images/instagram.png" alt="instagram icon">
+</div>
+ 
+ 
+ 
+ 
 
-        <div class="social">
-            <img src="./images/facebook.png" alt="facebook icon">
-            <img src="./images/twitter.png" alt="twitter icon">
-            <img src="./images/instagram.png" alt="instagram icon">
-        </div>
-    </footer>
-
+<div class="copyright">
+  &copy; Copyright 2018 Huddle. All rights reserved.
+</div>
+</section>
+</main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Kelvin Narnor</a>.
+    </p>
+  </footer>
 </body>
-
 </html>
